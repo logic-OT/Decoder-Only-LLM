@@ -20,13 +20,14 @@ cd decoder-only-llm
   ```python
   
   config = {
-      "data_path":"sample_data.json",
+      "data_path":"sample_data.json", #path to dataset
       "tokenizer": AutoTokenizer.from_pretrained('bert-base-uncased'),
       "device": torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu"),
-      "model_weights": None,
+      "model_weights": None, #path to model weights
       "learning_rate":0.0001,
       "num_batches":10,
   }
+
 - **Training**
   - After configuration, run the training script like so: <br><br>
   ```
@@ -34,6 +35,13 @@ cd decoder-only-llm
   ```
   The model should automatically begin training
 
+- **Data Structure**
+  - Your data for **training** must be in this follwing format:<br><br>
+    ```python
+    ["conversation":[{"from":"human","value":"{some text}"},{"from":"gpt","value":"{some text}"}]
+    ```
+    See an example in [sample_data.json](https://github.com/logic-OT/Decoder-Only-LLM/blob/main/sample_data.json) in the repo
+    
 - **Inferencing**
   - The inference script takes in a text and the queries the model for a response. To inference, run:<br><br>
   
