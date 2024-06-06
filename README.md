@@ -1,6 +1,6 @@
 # Decoder-Only-LLM for Question Asking
 
-This repository features a custom-built decoder-only language model (LLM) with 8 decoders and a total of 200 million parameters. I developed this from scratch as a personal project to explore NLP techniques ***which you can now pretrain to fit whatever task***
+This repository features a custom-built decoder-only language model (LLM) with 8 decoders and a total of 37 million parameters. I developed this from scratch as a personal project to explore NLP techniques ***which you can now pretrain to fit whatever task***
 
 ![image](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6133c18-bfaf-4578-8c5a-e5ac7809f65b_1632x784.png)
 
