@@ -1,4 +1,4 @@
-# Decoder-Only-LLM for Question Asking
+# Decoder-Only-LLM With Pytorch ✨
 
 This repository features a custom-built decoder-only language model (LLM) with 8 decoders and a total of 37 million parameters. I developed this from scratch as a personal project to explore NLP techniques ***which you can now pretrain to fit whatever task***
 
