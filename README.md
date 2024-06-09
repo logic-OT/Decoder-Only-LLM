@@ -36,7 +36,7 @@ cd decoder-only-llm
   The model should automatically begin training
 
 - **Data Structure**
-  - Your data for **training** must be in this follwing format:<br><br>
+  - Your data for **training** must be in the following format:<br><br>
     ```python
     ["conversation":[{"from":"human","value":"{some text}"},{"from":"gpt","value":"{some text}"}]
     ```
