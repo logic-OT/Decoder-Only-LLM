@@ -49,5 +49,6 @@ cd decoder-only-llm
   python inference.py
   ```
 ## 🪄 Tips
-I have a [what-to-expect.pdf](https://github.com/logic-OT/Decoder-Only-LLM/blob/main/what-to-expect.pdf)  file in the repo that details some observations i made while training the model for the question asking task. This information applies to any other model you decide to pretrain.
+- I have a [what-to-expect.pdf](https://github.com/logic-OT/Decoder-Only-LLM/blob/main/what-to-expect.pdf)  file in the repo that details some observations i made while training the model for the question asking task. This information applies to any other model you decide to pretrain.
+- Here is an excellent video that explains tranformers: [3 blue blue 1 brown](https://www.youtube.com/watch?v=eMlx5fFNoYc&t=1046s)
 
