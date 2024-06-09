@@ -79,7 +79,7 @@ class self_attention(torch.nn.Module):
 
         def __add_mask(self,atten_values):
               #masking attention values
-              mask_value = -1e9
+              mask_value = -torch.inf
               mask = torch.triu(torch.ones(atten_values.shape) * mask_value, diagonal=1)
               masked = atten_values + mask.to(device)
               return masked
